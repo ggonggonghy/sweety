@@ -1,0 +1,75 @@
+.container {
+	width: 410px;
+	height: 830px;
+	background-color: #d3d3d345;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+
+}
+.circle {
+	background-color: #d3d3d3;
+	width: 60px;
+	height: 60px;
+	border-radius: 30px;
+}
+#top {
+	position: absolute;
+	margin-top: -745px; /* 다른 요소에 새로운 값을 줄 때마다 왜 margin-top에 영향이 있는 거지??*/
+	margin-left: 370px;
+	background-color: #d3d3d3d1;
+} 
+#bottom {
+	position: absolute;
+	bottom: 45px;
+	margin-left: 40px;
+	background-color: #d3d3d3d1;
+}
+#sweety {
+	position: absolute;
+	bottom: 53px;
+	margin-left: 70px;
+	font-size: 40px;
+	font-weight: 700;
+	color: #23c564;
+}
+.frame_box {
+	width: 94%;
+	height: 230px;
+
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+#frame1 {
+	background-color: rgba(122, 228, 253, 0.22);
+	width: 59%;
+	height: 230px;
+
+}
+#frame2 { 
+	background-color: rgba(122, 228, 253, 0.22);
+	width: 39%;
+	margin-left: 10px;
+ }
+ h1 {
+ 	padding-top: 25px;
+ 	margin-left: 5px;
+ 	font-size: 27px;
+ 	font-weight: 300;
+ }
+ p {
+ 	
+ 	width: 90%;
+ 	margin-left: 12px;
+ 	margin-top: 50px;
+ 	font-size: 15px;
+
+ }
+.span {
+	width: 115px;
+	
+	font-size: 12px;
+	margin-left: 280px;
+	margin-top: 120px;
+}
